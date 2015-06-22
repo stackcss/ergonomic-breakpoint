@@ -2,7 +2,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 
-Ergonomic media queries. Uses
+Ergonomic CSS media queries. Uses
 [`CSS custom media queries`](http://dev.w3.org/csswg/mediaqueries/#custom-mq).
 
 [![lwb-ergonomic viewports](viewports.png)](https://twitter.com/lukew/status/273453112902172672)
