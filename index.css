@@ -1,0 +1,5 @@
+@custom-media --wrist (width < 320px);
+@custom-media --palm (width >= 320px) and (width < 800px);
+@custom-media --lap (width >= 800px) and (width < 1920px);
+@custom-media --desk (width >= 1920px) and (width < 2560px);
+@custom-media --wall (width > 2560px);

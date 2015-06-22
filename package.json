@@ -1,0 +1,21 @@
+{
+  "name": "ergonomic-breakpoint",
+  "version": "1.0.0",
+  "description": "ergonomic-breakpoint",
+  "main": "index.css",
+  "repository": "yoshuawuyts/ergonomic-breakpoint",
+  "keywords": [
+    "media query",
+    "css",
+    "ergonomic",
+    "lukew",
+    "custom"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "files": [
+    "LICENSE",
+    "index.css",
+    "README.md"
+  ]
+}
