@@ -1,6 +1,6 @@
 {
   "name": "ergonomic-breakpoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ergonomic-breakpoint",
   "main": "index.css",
   "repository": "yoshuawuyts/ergonomic-breakpoint",
@@ -17,5 +17,6 @@
     "LICENSE",
     "index.css",
     "README.md"
-  ]
+  ],
+  "scripts": {}
 }
