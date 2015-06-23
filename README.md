@@ -65,7 +65,8 @@ Wall viewport. `<2560px`.
 - [active development on Categorizr has come to an end](http://brettjankord.com/2013/01/10/active-development-on-categorizr-has-come-to-an-end/)
 - [unified device static](http://static.lukew.com/unified_device_design.png)
 - [screensiz.es](http://screensiz.es/)
-- [ergonomic viewport](https://github.com/yoshuawuyts/ergonomic-viewport)
+- [ergonomic viewport](https://github.com/yoshuawuyts/ergonomic-viewport) - Get the current ergonomic viewport
+- [logic in media queries](https://css-tricks.com/logic-in-media-queries/)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
