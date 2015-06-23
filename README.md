@@ -19,6 +19,14 @@ With [cssnext](https://github.com/cssnext/cssnext) or
 @media (--wrist) {
   /* styles for wrist viewport */
 }
+
+@media (--lap) and (--desk) {
+  /* styles for lap and desk viewports */
+}
+
+@media (--not-wrist) and (--not-palm) {
+  /* styles for lap and larger viewports */
+}
 ```
 
 ## API
@@ -36,6 +44,21 @@ Desk viewport. `>=1920px && <2560px`.
 
 ### @media (--wall)
 Wall viewport. `>=2560px`.
+
+### @media (--not-wrist)
+Wrist viewport. `>=320px`.
+
+### @media (--not-palm)
+Palm viewport. `<320px && >=800px`.
+
+### @media (--not-lap)
+Lap viewport. `<800px && >=1920px`.
+
+### @media (--not-desk)
+Desk viewport. `<1920px && >=2560px`.
+
+### @media (--not-wall)
+Wall viewport. `<2560px`.
 
 ## See Also
 - [custom media query specificiation](http://dev.w3.org/csswg/mediaqueries/#custom-mq)

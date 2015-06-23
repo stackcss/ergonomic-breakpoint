@@ -3,3 +3,9 @@
 @custom-media --lap (width >= 800px) and (width < 1920px);
 @custom-media --desk (width >= 1920px) and (width < 2560px);
 @custom-media --wall (width > 2560px);
+
+@custom-media --not-wrist (width < 320px) false;
+@custom-media --not-palm (width >= 320px) and (width < 800px) false;
+@custom-media --not-lap (width >= 800px) and (width < 1920px) false;
+@custom-media --not-desk (width >= 1920px) and (width < 2560px) false;
+@custom-media --not-wall (width > 2560px) false;
