@@ -1,6 +1,6 @@
 {
   "name": "ergonomic-breakpoint",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ergonomic CSS media queries",
   "main": "index.css",
   "repository": "yoshuawuyts/ergonomic-breakpoint",
