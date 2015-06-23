@@ -1,11 +1,11 @@
-@custom-media --wrist (width < 320px);
-@custom-media --palm (width >= 320px) and (width < 800px);
-@custom-media --lap (width >= 800px) and (width < 1920px);
-@custom-media --desk (width >= 1920px) and (width < 2560px);
-@custom-media --wall (width >= 2560px);
+@custom-media --wrist (max-width: 319px);
+@custom-media --palm (min-width: 320px) and (max-width: 799px);
+@custom-media --lap (min-width: 800px) and (max-width: 1919px);
+@custom-media --desk (min-width: 1920px) and (max-width: 2559px);
+@custom-media --wall (min-width: 2560px);
 
-@custom-media --not-wrist (width >= 320px);
-@custom-media --not-palm (width < 320px), (width >= 800px);
-@custom-media --not-lap (width < 800px), (width >= 1920px);
-@custom-media --not-desk (width < 1920px), (width >= 2560px);
-@custom-media --not-wall (width < 2560px);
+@custom-media --not-wrist (min-width: 320px);
+@custom-media --not-palm (max-width: 319px), (min-width: 800px);
+@custom-media --not-lap (max-width: 799px), (min-width: 1920px);
+@custom-media --not-desk (max-width: 1919px), (min-width: 2560px);
+@custom-media --not-wall (max-width: 2559px);
